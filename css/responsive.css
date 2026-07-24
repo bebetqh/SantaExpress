@@ -1,0 +1,626 @@
+/* =====================================================
+   SANTA EXPRESS SERVICES
+   RESPONSIVE CSS
+===================================================== */
+
+
+
+/* =====================
+   LARGE TABLET / LAPTOP
+===================== */
+
+
+@media(max-width:1200px){
+
+
+.hero h1{
+
+    font-size:45px;
+
+}
+
+
+.page-banner h1{
+
+    font-size:45px;
+
+}
+
+
+section h2{
+
+    font-size:34px;
+
+}
+
+
+.navbar-nav .nav-link{
+
+    margin-left:10px;
+
+}
+
+
+}
+
+
+
+
+
+/* =====================
+   TABLET
+===================== */
+
+
+@media(max-width:991px){
+
+
+
+/* Navbar */
+
+
+.navbar{
+
+    background:var(--primary);
+
+}
+
+
+.navbar-collapse{
+
+
+background:var(--primary);
+
+padding:20px;
+
+margin-top:15px;
+
+border-radius:10px;
+
+
+}
+
+
+.navbar-nav .nav-link{
+
+    margin:10px 0;
+
+}
+
+
+
+
+
+/* Hero */
+
+
+.hero{
+
+
+height:90vh;
+
+text-align:center;
+
+
+}
+
+
+
+.hero h1{
+
+
+font-size:38px;
+
+
+}
+
+
+
+.hero p{
+
+
+font-size:17px;
+
+
+}
+
+
+
+.hero-buttons .btn{
+
+
+margin-bottom:15px;
+
+
+}
+
+
+
+
+
+
+/* Banner */
+
+
+.page-banner{
+
+
+height:300px;
+
+
+}
+
+
+.page-banner h1{
+
+
+font-size:40px;
+
+
+}
+
+
+
+
+
+/* About */
+
+
+.about-preview,
+.company-intro{
+
+
+text-align:center;
+
+
+}
+
+
+
+
+/* Timeline */
+
+
+.timeline::before{
+
+
+left:20px;
+
+
+}
+
+
+
+.timeline-item{
+
+
+width:90%;
+
+margin-left:50px!important;
+
+
+}
+
+
+
+
+
+
+/* Statistics */
+
+
+.stats-section .col-md-3{
+
+
+margin-bottom:35px;
+
+
+}
+
+
+
+
+
+/* Services */
+
+
+.service-box img{
+
+
+height:200px;
+
+
+}
+
+
+
+
+
+/* Contact */
+
+
+.contact-section{
+
+
+text-align:center;
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+/* =====================
+   MOBILE
+===================== */
+
+
+@media(max-width:767px){
+
+
+
+
+
+body{
+
+
+font-size:15px;
+
+
+}
+
+
+
+
+
+
+/* Hero */
+
+
+.hero{
+
+
+height:100vh;
+
+
+}
+
+
+
+.hero h1{
+
+
+font-size:30px;
+
+line-height:1.3;
+
+
+}
+
+
+
+.hero p{
+
+
+font-size:15px;
+
+
+}
+
+
+
+.hero-buttons{
+
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+
+}
+
+
+
+.hero-buttons .btn{
+
+
+width:200px;
+
+margin:8px;
+
+
+}
+
+
+
+
+
+
+
+
+/* Heading */
+
+
+section h2{
+
+
+font-size:28px;
+
+
+}
+
+
+
+.page-banner{
+
+
+height:250px;
+
+
+}
+
+
+
+.page-banner h1{
+
+
+font-size:32px;
+
+
+}
+
+
+
+.page-banner p{
+
+
+font-size:14px;
+
+
+}
+
+
+
+
+
+
+
+
+/* Cards */
+
+
+.feature-card,
+.service-card,
+.value-card,
+.info-box,
+.contact-card{
+
+
+margin-bottom:20px;
+
+
+}
+
+
+
+
+
+
+
+
+/* Services */
+
+
+.service-content h3{
+
+
+font-size:22px;
+
+
+}
+
+
+
+
+
+/* Gallery */
+
+
+.gallery-card img{
+
+
+height:220px;
+
+
+}
+
+
+
+
+
+.gallery-filter button{
+
+
+width:100%;
+
+margin-bottom:10px;
+
+
+}
+
+
+
+
+
+
+
+/* Timeline */
+
+
+.timeline-item{
+
+
+width:85%;
+
+margin-left:40px!important;
+
+
+padding:25px;
+
+
+}
+
+
+
+
+
+
+
+
+/* Statistics */
+
+
+.stats-section h2{
+
+
+font-size:40px;
+
+
+}
+
+
+
+
+
+/* CTA */
+
+
+.cta-section h2{
+
+
+font-size:28px;
+
+
+}
+
+
+
+
+
+
+
+/* Footer */
+
+
+footer{
+
+
+text-align:center;
+
+
+}
+
+
+
+footer .col-md-4{
+
+
+margin-bottom:30px;
+
+
+}
+
+
+
+
+
+
+/* Whatsapp */
+
+
+.whatsapp-btn{
+
+
+width:55px;
+
+height:55px;
+
+font-size:30px;
+
+right:15px;
+
+bottom:15px;
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+/* =====================
+   SMALL MOBILE
+===================== */
+
+
+@media(max-width:400px){
+
+
+
+.hero h1{
+
+
+font-size:26px;
+
+
+}
+
+
+
+.hero p{
+
+
+font-size:14px;
+
+
+}
+
+
+
+.page-banner h1{
+
+
+font-size:28px;
+
+
+}
+
+
+
+.stats-section h2{
+
+
+font-size:35px;
+
+
+}
+
+
+
+}
