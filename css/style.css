@@ -1363,7 +1363,7 @@ footer .text-center {
 @media (max-width: 991px) {
   .navbar-toggler {
     background: white !important;
-    border: 1px solid #0b2d5c !important;
+    border: 10px solid #0b2d5c !important;
     width: 45px;
     height: 40px;
     display: flex;
