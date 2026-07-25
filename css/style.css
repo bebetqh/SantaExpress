@@ -1264,3 +1264,44 @@ footer .text-center {
     display: none;
   }
 }
+
+/* =====================
+   MOBILE MENU TEXT FIX
+===================== */
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: #ffffff !important;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .navbar-collapse .nav-link {
+    color: #0b2d5c !important;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  .navbar-collapse .nav-link:hover {
+    color: #c62828 !important;
+  }
+
+  .navbar-collapse .nav-link.active {
+    color: #c62828 !important;
+  }
+
+  .navbar-nav {
+    display: flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  .navbar-nav .nav-item {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
