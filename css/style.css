@@ -1342,7 +1342,7 @@ footer .text-center {
 @media (max-width: 991px) {
   .navbar-toggler {
     background: #ffffff; /* dark blue button */
-    border: none;
+    border: 1px solid #0b2d5c;
     padding: 10px 12px;
     border-radius: 8px;
   }
