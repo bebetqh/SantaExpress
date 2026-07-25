@@ -1305,3 +1305,32 @@ footer .text-center {
     visibility: visible !important;
   }
 }
+
+/* =====================
+   MOBILE DROPDOWN MENU
+===================== */
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: #ffffff !important;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .navbar-collapse .navbar-nav {
+    background: #ffffff;
+  }
+
+  .navbar-collapse .nav-link {
+    color: #0b2d5c !important;
+    font-weight: 600;
+    padding: 12px 0;
+  }
+
+  .navbar-collapse .nav-link:hover,
+  .navbar-collapse .nav-link.active {
+    color: #c62828 !important;
+  }
+}
