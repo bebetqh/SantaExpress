@@ -1362,32 +1362,31 @@ footer .text-center {
 
 @media (max-width: 991px) {
   .navbar-toggler {
-    background: white !important;
-    border: 10px solid #0b2d5c !important;
-    width: 45px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
+    background: white;
+    border: 2px solid #0b2d5c;
     border-radius: 8px;
+    padding: 8px 10px;
   }
 
-  .navbar-toggler:focus {
-    box-shadow: none;
+  /* Create dark blue hamburger lines */
+  .navbar-toggler-icon {
+    background-image: none;
+    width: 25px;
+    height: 18px;
+    position: relative;
+    display: inline-block;
+    border-top: 3px solid #0b2d5c;
+    border-bottom: 3px solid #0b2d5c;
   }
 
-  .custom-toggler {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .custom-toggler span {
-    display: block;
-    width: 22px;
-    height: 2px;
+  /* Middle line */
+  .navbar-toggler-icon::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 3px;
     background: #0b2d5c;
-    border-radius: 2px;
+    top: 6px;
+    left: 0;
   }
 }
