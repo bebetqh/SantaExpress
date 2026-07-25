@@ -1,0 +1,240 @@
+/* =====================================================
+   SANTA EXPRESS SERVICES
+   RESPONSIVE CSS
+===================================================== */
+
+/* =====================
+   LARGE TABLET / LAPTOP
+===================== */
+
+@media (max-width: 1200px) {
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  .page-banner h1 {
+    font-size: 45px;
+  }
+
+  section h2 {
+    font-size: 34px;
+  }
+
+  .navbar-nav .nav-link {
+    margin-left: 10px;
+  }
+}
+
+/* =====================
+   TABLET / MOBILE NAVBAR
+===================== */
+
+@media (max-width: 991px) {
+  /* Navbar */
+
+  .navbar {
+    background: #ffffff !important;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navbar-collapse {
+    background: #ffffff !important;
+
+    padding: 20px;
+
+    margin-top: 15px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .navbar-nav {
+    background: #ffffff !important;
+  }
+
+  .navbar-nav .nav-link {
+    color: #0b2d5c !important;
+
+    margin: 8px 0;
+
+    padding: 12px 15px;
+
+    font-weight: 600;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #c62828 !important;
+
+    background: #f5f6f8;
+
+    border-radius: 5px;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: #c62828 !important;
+  }
+
+  /* Remove desktop underline */
+
+  .navbar-nav .nav-link::after {
+    display: none;
+  }
+
+  /* Hamburger Button */
+
+  .navbar-toggler {
+    background: #ffffff !important;
+
+    border: 2px solid #0b2d5c !important;
+
+    padding: 8px 10px;
+  }
+
+  .navbar-toggler-icon {
+    background-image: none !important;
+
+    width: 25px;
+
+    height: 18px;
+
+    border-top: 3px solid #0b2d5c;
+
+    border-bottom: 3px solid #0b2d5c;
+
+    position: relative;
+  }
+
+  .navbar-toggler-icon::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    top: 6px;
+
+    width: 25px;
+
+    height: 3px;
+
+    background: #0b2d5c;
+  }
+
+  /* Hero */
+
+  .hero {
+    height: 90vh;
+
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+  .hero-buttons .btn {
+    margin-bottom: 15px;
+  }
+
+  /* Page Banner */
+
+  .page-banner {
+    height: 300px;
+  }
+
+  .page-banner h1 {
+    font-size: 40px;
+  }
+
+  /* About */
+
+  .about-preview,
+  .company-intro {
+    text-align: center;
+  }
+
+  /* Timeline */
+
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timeline-item {
+    width: 90%;
+
+    margin-left: 50px !important;
+  }
+
+  /* Statistics */
+
+  .stats-section .col-md-3 {
+    margin-bottom: 35px;
+  }
+
+  /* Services */
+
+  .service-box img {
+    height: 200px;
+  }
+
+  /* Contact */
+
+  .contact-section {
+    text-align: center;
+  }
+}
+
+/* =====================
+   SMALL MOBILE
+===================== */
+
+@media (max-width: 400px) {
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .page-banner h1 {
+    font-size: 28px;
+  }
+
+  .stats-section h2 {
+    font-size: 35px;
+  }
+}
+
+/* =====================
+   ABOUT MOBILE SPACING
+===================== */
+
+@media (max-width: 767px) {
+  .company-intro .col-lg-6:first-child {
+    margin-bottom: 30px;
+  }
+}
+
+/* =====================
+   GALLERY MOBILE SPACING
+===================== */
+
+@media (max-width: 767px) {
+  .gallery-section .container,
+  .event-section .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .gallery-card {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
