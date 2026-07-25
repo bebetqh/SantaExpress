@@ -216,10 +216,25 @@
    ABOUT MOBILE SPACING
 ===================== */
 
-@media (max-width:767px){
+@media (max-width: 767px) {
+  .company-intro .col-lg-6:first-child {
+    margin-bottom: 30px;
+  }
+}
 
-  .company-intro .col-lg-6:first-child{
-    margin-bottom:30px;
+/* =====================
+   GALLERY MOBILE SPACING
+===================== */
+
+@media (max-width: 767px) {
+  .gallery-section .container,
+  .event-section .container {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
+  .gallery-card {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
