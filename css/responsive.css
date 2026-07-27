@@ -221,16 +221,16 @@
     margin-bottom: 30px;
   }
 
-  /* About Button */
-  .about-preview .btn {
-    display: table;
-    margin: 20px auto 0;
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
   }
 
-  /* Services Button */
-  .services-preview .btn {
-    display: table;
-    margin: 20px auto 0;
+  .hero-buttons .btn {
+    width: 220px;      /* Same width */
+    margin: 0;
   }
 }
 
