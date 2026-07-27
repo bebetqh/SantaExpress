@@ -684,6 +684,16 @@ section h2::after {
   transform: scale(2);
 }
 
+.cgg-logo {
+  width: 250px !important;
+
+  max-width: none !important;
+
+  height: auto;
+
+  transform: scale(2);
+}
+
 /* =====================
    INDUSTRY CARDS
 ===================== */
