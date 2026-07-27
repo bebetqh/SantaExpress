@@ -223,13 +223,12 @@
 
   .hero-buttons {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
   }
 
   .hero-buttons .btn {
-    width: 220px;      /* Same width */
     margin: 0;
   }
 }
