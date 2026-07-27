@@ -220,6 +220,18 @@
   .company-intro .col-lg-6:first-child {
     margin-bottom: 30px;
   }
+
+  /* About Button */
+  .about-preview .btn {
+    display: table;
+    margin: 20px auto 0;
+  }
+
+  /* Services Button */
+  .services-preview .btn {
+    display: table;
+    margin: 20px auto 0;
+  }
 }
 
 /* =====================
@@ -238,7 +250,7 @@
     margin-right: 5px;
   }
 
-  .gallery-card img{
+  .gallery-card img {
     height: 220px;
   }
 }
