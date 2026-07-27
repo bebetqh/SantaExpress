@@ -313,4 +313,42 @@
 
 }
 
+/* =====================
+   CLIENT LOGO CONSISTENT SPACING
+===================== */
+
+.client-logo {
+  height: 140px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-logo img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+
+  .client-logo-section .row {
+    --bs-gutter-x: 20px;
+    --bs-gutter-y: 20px;
+  }
+
+  .client-logo {
+    height: 120px;
+    padding: 20px;
+  }
+
+  .client-logo img {
+    max-height: 65px;
+  }
+
+}
+
 
