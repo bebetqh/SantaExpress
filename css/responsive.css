@@ -312,3 +312,39 @@
   }
 
 }
+
+/* =====================
+   CLIENT LOGOS MOBILE
+===================== */
+
+@media (max-width: 767px) {
+
+  .client-logo-section .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .client-logo-section .row {
+    --bs-gutter-x: 20px;
+    --bs-gutter-y: 20px;
+  }
+
+  .client-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    padding: 15px;
+  }
+
+  .client-logo img {
+    max-width: 100%;
+    max-height: 70px;
+    object-fit: contain;
+  }
+
+  /* Baker Hughes logo */
+  .baker-logo {
+    max-height: 90px;
+  }
+}
