@@ -253,3 +253,62 @@
     height: 220px;
   }
 }
+
+/* =====================
+   TIMELINE MOBILE
+===================== */
+
+@media (max-width: 767px) {
+
+  .timeline {
+    position: relative;
+    padding-left: 40px;
+  }
+
+  /* Vertical line */
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #c62828;
+  }
+
+  .timeline-item {
+    position: relative;
+    width: 100%;
+    margin: 0 0 25px 0 !important;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  }
+
+  /* Timeline dot */
+  .timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -34px;
+    top: 25px;
+    width: 14px;
+    height: 14px;
+    background: #c62828;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  /* Arrow */
+  .timeline-item::after {
+    content: "";
+    position: absolute;
+    left: -12px;
+    top: 22px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 12px solid #fff;
+  }
+
+}
